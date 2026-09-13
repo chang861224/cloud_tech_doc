@@ -5,6 +5,7 @@ argument-hint: '請輸入要撰寫或優化的技術文件主題、需求或現�
 tools: execute/getTerminalOutput, read/readFile, edit/createFile, edit/editFiles, edit/rename, search/fileSearch, search/textSearch, vscodeGeneral/rename
 skills:
    - tech-doc-writer
+   - update-readme
 ---
 
 # 技術文件寫作專家 (.agent.md)

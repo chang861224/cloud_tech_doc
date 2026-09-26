@@ -72,12 +72,12 @@ gcloud run services deploy my-cloud-run-service \
 
 ```mermaid
 graph LR
-    subgraph 專案 A (Project A)
-        CR[Cloud Run Service] -->|使用 SA| SA_A[Service Account<br/>app-sa@project-a.iam.gserviceaccount.com]
+    subgraph ProjectA ["專案 A (Project A)"]
+        CR["Cloud Run Service"] -->|"使用 SA"| SA_A["Service Account<br/>app-sa@project-a.iam.gserviceaccount.com"]
     end
     
-    subgraph 專案 B (Project B)
-        SA_A -.->|授予 roles/pubsub.publisher| Topic_B[Pub/Sub Topic<br/>projects/project-b/topics/my-topic]
+    subgraph ProjectB ["專案 B (Project B)"]
+        SA_A -.->|"授予 roles/pubsub.publisher"| Topic_B["Pub/Sub Topic<br/>projects/project-b/topics/my-topic"]
     end
 ```
 

@@ -9,6 +9,7 @@
 ```text
 .
 ├── google_cloud/                 # Google Cloud (GCP) 相關技術指南
+│   ├── gcp_cloud_run_function_yaml_guide.md
 │   ├── gcp_cloud_run_job_yaml_guide.md
 │   ├── gcp_cloud_run_pubsub_guide.md
 │   ├── gcp_cloud_run_service_account_guide.md
@@ -34,6 +35,7 @@
 | 文件名稱 | 說明簡介 |
 | :--- | :--- |
 | [`gcp_cloud_run_service_yaml_guide.md`](google_cloud/gcp_cloud_run_service_yaml_guide.md) | GCP Cloud Run Service YAML 配置與部署實戰指南 |
+| [`gcp_cloud_run_function_yaml_guide.md`](google_cloud/gcp_cloud_run_function_yaml_guide.md) | GCP Cloud Run Functions (第 2 代) YAML 配置與部署指南 |
 | [`gcp_cloud_run_job_yaml_guide.md`](google_cloud/gcp_cloud_run_job_yaml_guide.md) | GCP Cloud Run Job YAML 配置與批次任務執行指南 |
 | [`gcp_cloud_run_pubsub_guide.md`](google_cloud/gcp_cloud_run_pubsub_guide.md) | 整合 Cloud Run 與 Pub/Sub 的非同步事件驅動架構指南 |
 | [`gcp_cloud_run_service_account_guide.md`](google_cloud/gcp_cloud_run_service_account_guide.md) | Cloud Run 服務帳號權限管理與安全最佳實踐 |

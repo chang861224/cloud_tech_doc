@@ -8,6 +8,7 @@
 
 ```text
 .
+├── .github/                      # Agent 與 Skill 自定義設定檔
 ├── google_cloud/                 # Google Cloud (GCP) 相關技術指南
 │   ├── gcp_cloud_run_function_yaml_guide.md
 │   ├── gcp_cloud_run_job_yaml_guide.md
@@ -24,6 +25,7 @@
 │   ├── terraform_intro.md
 │   ├── terraform_moved_block_guide.md
 │   └── terraform_resource_vs_module.md
+├── release.md                    # 專案版本發布日誌 (Release Notes)
 └── README.md
 ```
 
